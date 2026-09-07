@@ -68,3 +68,17 @@
 .site-footer {
     background: linear-gradient(180deg, #111827 0%, #0b0f19 100%);
 }
+/* =============================
+   Section vertical rhythm
+   ============================= */
+.section-space {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+    .section-space {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
